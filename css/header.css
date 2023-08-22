@@ -1,0 +1,27 @@
+.cabecalho__nav {
+
+}
+
+.cabecalho__nav-logo {
+
+}
+
+.cabecalho__nav-barra_de_pesquisa {
+
+}
+
+.cabecalho__nav__nav-icones {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.cabecalho__nav_nav-icones-img {
+    width: 25px;
+
+}
+
+.minha-foto {
+    border-radius: 100%;
+}
