@@ -1,0 +1,33 @@
+.conteudo__principal__destaques {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    padding: 30px 0px 30px 30px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.568);
+}
+
+.conteudo__principal__destaques__itens {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.conteudo__principal__destaques__itens-cor {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(153, 0, 255);
+    border-radius: 100%;
+
+}
+
+.azul {
+    background-color: rgb(204, 255, 0);
+}
+
+.verde {
+    background-color: aquamarine;
+}
+.conteudo__principal__destaques__itens-nome {
+
+}

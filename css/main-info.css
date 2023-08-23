@@ -1,0 +1,74 @@
+.lateral {
+    border: 2px solid red;
+}
+
+.conteudo__principal__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+}
+.foto-perfil {
+    width: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.conteudo__principal__info__secao__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.conteudo__principal__info__secao__texto__perfil {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.conteudo__principal__info__secao__texto-usuario {
+    font-size: 24px;
+}
+
+.conteudo__principal__info__secao__texto-editarPerfil {
+    border: transparent;
+    border: 1px solid var(--preto-fonte-primaria);
+    padding: 5px 15px;
+    text-decoration: none;
+    color: var(--preto-fonte-primaria);
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.conteudo__principal__info__secao__texto-editarPerfil:hover {
+    color: var(--rosa-fonte-hover);
+    border-color: var(--rosa-fonte-hover);
+}
+
+.conteudo__principal__info__secao__texto__numeros {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.conteudo__principal__info__secao__texto__caixa-negrito {
+    font-weight: 700;
+}
+.conteudo__principal__info__secao__texto__caixa {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    
+}
+
+.conteudo__principal__info__secao__texto__bio {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
