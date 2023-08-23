@@ -1,20 +1,62 @@
-.cabecalho__nav {
 
+.cabecalho__nav {
+    width: 61.76vw;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 auto;
 }
 
 .cabecalho__nav-logo {
-
+    width: 150px;
 }
 
 .cabecalho__nav-barra_de_pesquisa {
+    font-family: var(--fonte-principal);
+    background-image: url(../assets/lupa.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: 10px;
+    background-position-y: center;
+    width: 200px;
+    padding: 5px 5px 5px 30px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    color: var(--preto-fonte-primaria);
 
 }
 
+.cabecalho__nav-barra_de_pesquisa:hover {
+    border: 1px solid var(--rosa-fonte-hover);
+}
+
+.cabecalho__nav-barra_de_pesquisa::-webkit-search-cancel-button {
+    filter: grayscale();
+}
+
+ 
 .cabecalho__nav__nav-icones {
     display: flex;
     flex-direction: row;
     gap: 10px;
     align-items: center;
+}
+.material-symbols-outlined {
+    color: black;
+    width: 25px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.material-symbols-outlined:hover {
+    color: var(--rosa-fonte-hover);
+
 }
 
 .cabecalho__nav_nav-icones-img {
@@ -24,4 +66,9 @@
 
 .minha-foto {
     border-radius: 100%;
+    border: 2px solid transparent;
+}
+
+.minha-foto:hover {
+    border: 2px solid var(--rosa-fonte-hover);
 }

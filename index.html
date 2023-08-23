@@ -4,7 +4,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="shortcut icon" href="assets/favicon-myinsta.ico" type="image/x-icon">
         <title>Jé (@jespindola.v)</title>
     </head>
     <body>
@@ -13,14 +16,69 @@
                 <h1><img class="cabecalho__nav-logo" src="assets/logo.png" alt="Logo MyInstagram"></h1>
                 <input type="search" name="barra_de_pesquisa" placeholder="Pesquisar" id="barra-de-pesquisa" class="cabecalho__nav-barra_de_pesquisa">
                 <section class="cabecalho__nav__nav-icones">
-                    <a href="#"><img class="cabecalho__nav_nav-icones-img" src="assets/home-casa.svg" alt="Ícone da Página Inicial"></a>
-                    <a href="#"><img class="cabecalho__nav_nav-icones-img" src="assets/inbox.svg" alt="Ícone da caixa de mensagens (inbox)"></a>
-                    <a href="#"><img class="cabecalho__nav_nav-icones-img" src="assets/explorar-bussola.svg" alt="Ícone de Explorar"></a>
-                    <a href="#"><img class="cabecalho__nav_nav-icones-img" src="assets/favoritos-coracao.svg" alt="Ícone de Favoritos"></a>
+                    <a href="#"><span class="material-symbols-outlined">home</span></a>
+                    <a href="#"><span class="material-symbols-outlined">inbox</span></a>
+                    <a href="#"><span class="material-symbols-outlined">explore</span></a>
+                    <a href="#"><span class="material-symbols-outlined">favorite</span></a>
                     <a href="#"><img class="cabecalho__nav_nav-icones-img minha-foto" src="assets/minha-foto.jpg" alt="Ícone do meu perfil"></a>
                 </section>
             </nav>
 
         </header>
+        <main>
+            <section class="lateral"></section>
+            <section class="conteudo__principal">
+                <div class="conteudo__principal__info">
+                    <div class="conteudo__principal__info__secao__img">
+                        <img class="foto-perfil" src="assets/minha-foto.jpg" alt="Foto do Perfil">
+                    </div>
+                    <div class="conteudo__principal__info__secao__texto">
+                        <div class="conteudo__principal__info__secao__texto__perfil">
+                            <h2 class="conteudo__principal__info__secao__texto-usuario">jespindola.v</h2>
+                            <a class="conteudo__principal__info__secao__texto-editarPerfil" href="#">Editar Perfil</a>
+                        </div>
+                        <div class="conteudo__principal__info__secao__texto__numeros">
+                            <section class="conteudo__principal__info__secao__texto__caixa">
+                                <p class="conteudo__principal__info__secao__texto__caixa-negrito">194</p>
+                                <p class="conteudo__principal__info__secao__texto__caixa-normal">publicações</p>
+                            </section>
+                            <section class="conteudo__principal__info__secao__texto__caixa">
+                                <p class="conteudo__principal__info__secao__texto__caixa-negrito">5300</p>
+                                <p class="conteudo__principal__info__secao__texto__caixa-normal">seguidores</p>
+                            </section>
+                            <section class="conteudo__principal__info__secao__texto__caixa">
+                                <p class="conteudo__principal__info__secao__texto__caixa-negrito">667</p>
+                                <p class="conteudo__principal__info__secao__texto__caixa-normal">seguindo</p>
+                            </section>
+                        </div>
+                        <div class="conteudo__principal__info__secao__texto__bio">
+                            <p class="conteudo__principal__info__secao__texto__bio-nome">Jéssica Espíndola</p>
+                            <p class="conteudo__principal__info__secao__texto__bio-nome">Desenvolvedora Front-End | HTML | CSS | Javascript</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteudo__principal__destaques">
+                    <section class="conteudo__principal__destaques__itens">
+                        <div class="conteudo__principal__destaques__itens-cor"></div>
+                        <p class="conteudo__principal__destaques__itens-nome">Checklist</p>
+                    </section>
+                    <section class="conteudo__principal__destaques__itens">
+                        <div class="conteudo__principal__destaques__itens-cor verde"></div>
+                        <p class="conteudo__principal__destaques__itens-nome">Youtube</p>
+                    </section>
+                    <section class="conteudo__principal__destaques__itens">
+                        <div class="conteudo__principal__destaques__itens-cor azul"></div>
+                        <p class="conteudo__principal__destaques__itens-nome">Developer</p>
+                    </section>
+                </div>
+                <div class="conteudo__principal__publicacoes">
+                    <section class="conteudo__principal__publicacoes__menu">
+                        <span class="material-symbols-outlined">view_cozy</span>
+                        <p class="conteudo__principal__publicacoes__menu-texto">Publicações</p>
+                    </section>
+                </div>
+            </section>
+            <section class="lateral"></section>
+        </main>
     </body>
 </html>

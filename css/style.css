@@ -1,1 +1,29 @@
 @import url(header.css);
+@import url(main-info.css);
+@import url(main-destaques.css);
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;700&display=swap');
+
+:root {
+    --fonte-principal: 'Dosis';
+    --preto-fonte-primaria: #000000;
+    --rosa-fonte-hover: #FF0087;
+    --background-header: #FFFFFF;
+    --background-body: #f4f2f2;
+}
+body {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cor-fonte-primaria);
+    background-color: var(--background-body);
+}
+
+header {
+    background-color: var(--background-header);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.351);
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto 940px auto;
+}
